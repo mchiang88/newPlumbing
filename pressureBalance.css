@@ -1,0 +1,51 @@
+.container{
+	text-align: center;
+	padding-top: 5%;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+span{
+	font-weight: 100;
+}
+
+hr{
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+
+
+.images{
+	padding-left: 15%;
+	padding-top: 5%;
+}
+
+#trim{
+	content:url(MIRED8010CP.jpg);
+	float: left;
+	margin-right: 10%;
+	width: 30%;
+	height: auto;
+}
+
+#valve{
+	content:url(MIR4001.jpg);
+	float: left;
+	margin-left: 10%;
+	width: 30%;
+	height: auto;
+}
+
+.description{
+	margin: 15px;
+	text-align: center;
+	word-wrap: normal;
+}
+
+.description, p{
+	font-size: 25px;
+}

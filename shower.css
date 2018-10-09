@@ -1,0 +1,16 @@
+html {
+	height: 100%
+}
+
+#content{
+	padding-top: 15%
+}
+
+.jumbotron{
+	text-align: center;
+	word-wrap: normal;
+}
+
+.btn{
+	text-align: center;
+}
