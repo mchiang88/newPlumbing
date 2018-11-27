@@ -1,4 +1,4 @@
-var gamePieces = document.querySelectorAll(".parts");
+var gamePieces = $(".parts");
 var piece = [
 	"Delta_Valve.jpg",
 	"Delta_Ara.jpg",
@@ -10,5 +10,6 @@ var piece = [
 
 
 	for(var i = 0; i < gamePieces.length; i++){
-		gamePieces[i].src=piece[i];
+		var randomIndex = Math.floor(piece.length * Math.random());
+		gamePieces[i].src = piece.splice(randomIndex, 1);
 	}
