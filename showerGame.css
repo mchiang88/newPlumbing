@@ -1,0 +1,30 @@
+.container{
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 5%;
+}
+
+
+#selection {
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+.gamePiece {
+	float: left;
+
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+	--weebkit-transition: background 0.6s;
+	--moz-transition: background 0.6s;
+
+}
+
+.gamePiece img {
+	margin: 0 auto;
+	width: 200px;
+	height: auto;
+
+}
+

@@ -1,6 +1,8 @@
+
 html {
 	height: 100%
 }
+
 
 #content{
 	padding-top: 15%
@@ -13,4 +15,9 @@ html {
 
 .btn{
 	text-align: center;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
 }
