@@ -1,4 +1,5 @@
 var gamePieces = $(".parts");
+
 var piece = [
 	"Delta_Valve.jpg",
 	"Delta_Ara.jpg",
@@ -11,5 +12,14 @@ var piece = [
 
 	for(var i = 0; i < gamePieces.length; i++){
 		var randomIndex = Math.floor(piece.length * Math.random());
-		gamePieces[i].src = piece.splice(randomIndex, 1);
+		var link = piece.splice(randomIndex, 1)[0];
+		gamePieces[i].src = link;
+		gamePieces[i].textContent = link.replace('.jpg', '');
 	}
+
+
+var picked = "Delta_Valve.jpg";
+
+gamePieces.click(function() {
+	console.log(this.textContent);
+})
